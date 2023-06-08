@@ -2,10 +2,10 @@
 Noob here learning ts, js sucks.
 
 # Why should you learn from me/with me?
--Too be frank, you shouldn't. 
--Lol just kidding, yeah agreed I'm not that good at TS right now to teach anyone 
+- Too be frank, you shouldn't. 
+- Lol just kidding, yeah agreed I'm not that good at TS right now to teach anyone 
 but you can definatley learn with me because it would be so much fun and we 
--can help each other stay consistent.Join me if you're up for this. 
+- can help each other stay consistent.Join me if you're up for this. 
 [You can connect with me on my twitter](https://twitter.com/akashhuyaar)
 
 # how to setup 
