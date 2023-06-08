@@ -16,7 +16,7 @@ If you want to do it fancy way you can do it with vscode packages but I'm not fr
 I used pnpm becase obviously huh😮‍💨, Who uses slow boring npm now?
 [pnpm installation](https://pnpm.io/installation)
 
-### so how to install typescript
+### So how to install typescript
 > I wanted to install ts globally but for some reason pnpm doesn't letting me do that. (help!!🥲)
 
 ```
