@@ -8,7 +8,7 @@ but you can definatley learn with me because it would be so much fun and we
 - can help each other stay consistent.Join me if you're up for this. 
 [You can connect with me on my twitter](https://twitter.com/akashhuyaar)
 
-# how to setup 
+# How to setup 
 You can do it using npm or pnpm or yarn.
 
 If you want to do it fancy way you can do it with vscode packages but I'm not free unlike you so I'll use pnpm.

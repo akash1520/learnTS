@@ -58,7 +58,8 @@ console.log(createUserBetter({ name: "Akash", isPaid: true, id: 2 }));
 //but with their name as the name of the type
 
 //------------------------------- Arrays---------------------------------
-const myNums = [] // by default arrays has never type assigned to it, why ? Idk either, google it dumbo.
+const myNums = [] // by default arrays has never type assigned to it.
+//In TypeScript, the type of an array is not explicitly assigned by default because TypeScript allows for flexibility in the type of elements that can be stored in an array.
 // myNums.push(1); //will throw an error
 
 const newNums: number[] = [] //good practice
