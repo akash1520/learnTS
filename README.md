@@ -26,7 +26,7 @@ pnpm add typescript
 
 ## DAY 1
 Now so if you're done with this let's see what we will learn today?
-
+- [x] How to compile TS file.
 - [x] We will get basic intro to typescipt how it work and how you can declare type of any variable. 
 - [x] And some best practices about declaring variables.
 
@@ -37,3 +37,20 @@ Today we're learning functionsss and type alias
 - [x] Type alias also how to use some keywords
 - [x] Arrays
 - [x] Union Types
+
+## DAY 3
+Today we're learning Tuple, Enum and Interface.
+> Tuples
+- [x] Basic understanding of tuples
+- [x] How can you use it
+- [x] Heads up about problem with tuples in TS
+
+> Enum
+- [x] Basics, how they can be useful to you
+
+> Interface
+- [x] Basics
+- [x] A few functionalities
+
+And it's a wrap for today.
+

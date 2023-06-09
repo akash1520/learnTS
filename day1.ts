@@ -1,5 +1,9 @@
 /* Day 1  */
-/*---intro---*/
+/*-------------------intro-------------------*/
+
+/* You can use command "npx tsc filename" to compile your TS file. */
+
+
 let User = {name:"akash", age:"20"}
 console.log(User.name);
 // console.log(User.email); throws error good🤌
