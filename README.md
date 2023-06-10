@@ -1,6 +1,6 @@
 # learnTS
 
-![Noob here learning ts, js sucks.](https://github.com/akash1520/learnTS/assets/82609252/3ffa51a8-8461-4481-8ba7-f0211651247d)
+[Noob here learning ts, js sucks.](https://github.com/akash1520/learnTS/assets/82609252/3ffa51a8-8461-4481-8ba7-f0211651247d)
 
 # Why should you learn from me/with me?
 - Too be frank, you shouldn't. 
