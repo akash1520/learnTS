@@ -1,6 +1,6 @@
 # learnTS
 
-<img src="learnTS.png" width="350" title="Noob here learning ts, js sucks.">
+<img src="./learnTS.png" width="350" title="Noob here learning ts, js sucks.">
 
 # Why should you learn from me/with me?
 - Too be frank, you shouldn't. 
