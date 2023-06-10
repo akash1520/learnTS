@@ -58,6 +58,18 @@ seat=seatChoices.window //also through this we know there are only a few choices
 
 // interface are kind of like a loosely defined class
 
+// little bit more information about interfaces
+// Interfaces in TypeScript are like blueprints for objects. 
+//They define the properties and methods that an object must have, without specifying the actual implementation of those properties and methods.
+//This allows you to create objects that have a consistent structure, even if they are implemented in different ways.
+
+// For example, you could define an interface for a Car object that specifies that it must have properties for the make, model,
+//and year of the car, as well as a method for driving the car. Then, you could create different classes that implement the Car interface,
+//such as a HondaAccord class and a ToyotaCamry class. Even though these two classes are implemented differently, they will both have the same properties and methods,
+//because they both implement the Car interface.
+
+
+
 interface User{  
     email:string,
     userId:number,      //supports everything type has
