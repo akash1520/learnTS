@@ -1,6 +1,6 @@
 # learnTS
 
-[Noob here learning ts, js sucks.](learnTS.png)
+![Alt Noob here learning ts, js sucks](image learnTS.png)
 
 # Why should you learn from me/with me?
 - Too be frank, you shouldn't. 
