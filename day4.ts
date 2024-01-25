@@ -1,5 +1,5 @@
 // Day 4
-// Generic Type
+// Generic Type.
 
 /* Generic types in TypeScript allow you to create 
 functions, classes, and interfaces that can work with different types of data.*/
