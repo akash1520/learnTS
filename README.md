@@ -58,5 +58,8 @@ And it's a wrap for today.
 ## DAY 4
 > Today we'll learn Generic type and how to use them.
 - [X] Basic, why we need it, how to use it
+
+## DAY 5
+> Continued generic types 
 - [X] Learnt Typecasting 
 - [x] Learnt what is exhaustive typecheck but it's something you will better understand by watching a youtube video ig

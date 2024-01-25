@@ -1,42 +1,39 @@
-// Day 4
-// Generic Type.
+//let's talk about generic types today
 
-/* Generic types in TypeScript allow you to create 
-functions, classes, and interfaces that can work with different types of data.*/
+// Generic types let you create reusable code that works with any data type, like building blocks for functions and classes, all without sacrificing type safety.
 
-// generic type is used when you want to use ANY kind of type with a function
-// but then give results according to the specific type you have used while function
-
-// okay so now you know what're we trying to do then tell me what do you think about this
-
-function getUser(params: any): any {
-    return (params.email)
+type myGenericType<TData> = {
+    data: TData
 }
 
-//now look at this
+//hover your cursor over examples, you'll understand what's happening here
+type example1 = myGenericType<string>
 
-function getUserT<Type>(params: Type): Type {
-    return params;
+type example2 = myGenericType<{firstName: string, lastName: string}>
+
+
+// now let's learn how to make return objects of the function type safe
+//hover your cursor over res in makeFetch call, you'll understand how this is working
+
+const makeFetch = <T>(url:string):Promise<T>=>{
+    return fetch(url).then((res)=>res.json())
 }
 
-// both looks similar and many people might think if Type allows any kind of type then isn't it the same?
-// but it isn't and it will be clear by next example
+makeFetch<{firstName:string, id:number}>("http://localhost:3000/api/v1").then((res)=>console.log(res))
 
-type User = {
-    email: string,
-    mobile: number,
-    creditCard?: number
-}
 
-const akashh: User = {
-    email: "akash@gmail.com",
-    mobile: 9928090789
-}
+//how generic types comes in handy irl
+//let's understand with an example
 
-console.log(getUser(4));
-//works right, doesn't throw any error but this will break your code, BECAUSE.... read the function definition again
+const set = new Set();
 
-// now let's try the function with generic type
-console.log(getUserT<User>(akashh)) //gotta mention the type explicitly like I did, if you're using any other type than primitives
+set.add(1)
+set.add("abc");
 
-export{}
+//we can add any kind of object into the set and it won't throw any type error
+//but what if we want a Set which stores only numbers
+
+const set1 = new Set<number>()
+
+set1.add(1)
+set1.add("abc") //this won't work and will throw an error
